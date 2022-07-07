@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-1-page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-container">
+        <div class="my-name">
+            Sourabh bishnoi
+        </div>
+        <ul class="hpb-links">
+            <li class="main-links"><a class="hpb-links" href="home.html">home</a></li>
+            <li class="main-links"><a class="hpb-links" href="projects.html">projects</a></li>
+            <li class="main-links"><a class="hpb-links" href="blogs.html" style="font-weight: bolder;">blogs</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="title">How To Think <span class="work">Recursively </span>in programming</h1>
+    <article class="paragraph-container">
+        <p>To think recursively is one of the tricky parts while trying to write code. Atleast for me I was not able to grasp the recursive approach well until I was in 2nd year of my college.
+
+            But, we can train our brain to think recursively and make it a part of our day to day life. In this blog I'm going to tell what is recursion and how recursion works.
+            
+            Let's get into it.</p>
+
+        <h1>What is the recursive approach ?</h1>
+
+        <p>The only rule of thumb to keep in mind is if we have a task which gets split on every iteration into two or more similar tasks then we can think of it as recursion i.e it is repeating itself over and over again.</p>
+
+        <h1>Recursion Steps</h1>
+
+        <p>The condition that stops the recursive function is called its base case . In above code line 2 is the base case where the code execution stops.
+            
+            So, we can break down recursion into 3 steps -
+            
+            Create a function with a base condition upon reaching which the recursive call is stopped.
+            Pass the function arguments which will trigger the base condition.
+            Pass the next arguments which will trigger the recursive call only once.
+            In the above code example, step 1 is to create printNumber function with base case when number > 10 and step2 is when we pass a argument that triggers that base case i.e passing 11 and finally step 3 is when we call the function for numbers which are less than 10.</p>
+
+            <h1>Conclusion</h1>
+
+            <p>Hurray! You have just learned one of the fundamental approach of recursion in programming. Just remember whenever we have a task which degenerates into two or more similar tasks we can use recursion. Make sure we always have atleast one base case to stop recursive calls otherwise we will run out of memory and hence will cause an error.
+
+                Thanks for reading this tutorial on recursion basics !</p>
+
+    </article>
+
+    <footer class="links-footer">
+        <div class="social-div">Social media presence</div>
+        <ul>
+            <li class="main-link"><a target="_blank" class="link" href="https://github.com/sourabh0505">Github</a></li>
+            <li class="main-link"><a target="_blank" class="link"
+                    href="https://www.linkedin.com/in/sourabh-vishnoi-396751181/?trk=people-guest_people_search-card&originalSubdomain=in">Linkedin</a>
+            </li>
+            <li class="main-link"><a target="_blank" class="link"
+                    href="https://www.instagram.com/sourabhvishnoi05/">Instagram</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
