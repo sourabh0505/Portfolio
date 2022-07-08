@@ -102,7 +102,7 @@ body{
 .work{
     color: var(--heading-color);
 }
-.birthdaylucky-section, .minionese-section, .portfolio-section, .blog-2-section{
+.birthdaylucky-section, .minionese-section, .portfolio-section, .blog-2-section, .project-section{
     background-color: white;
 }
 .paragraph-container{
