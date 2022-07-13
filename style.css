@@ -54,7 +54,7 @@ body{
 .heading-1{
     color: var(--heading-color);
 }
-.tech-section, .project-section, .blog-section, .profitorloss-section, .cashregister-section, .yoda-section, .portfolio-section, .minionese-section, .birthdaylucky-section, .blog-1-section, .blog-2-section, .palindrome-section, .quiz-section, .shaktimann-section, .funwithtriangles-section{
+.tech-section, .project-section, .blog-section, .profitorloss-section, .cashregister-section, .yoda-section, .portfolio-section, .minionese-section, .birthdaylucky-section, .blog-1-section, .blog-2-section, .palindrome-section, .quiz-section, .shaktimann-section, .funwithtriangles-section, .emoji-interpreter-section{
     background-color: var(--section-color);
     margin: 2rem 3rem;
 
