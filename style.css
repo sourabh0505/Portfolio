@@ -54,7 +54,7 @@ body{
 .heading-1{
     color: var(--heading-color);
 }
-.tech-section, .project-section, .blog-section, .profitorloss-section, .cashregister-section, .yoda-section, .portfolio-section, .minionese-section, .birthdaylucky-section, .blog-1-section, .blog-2-section, .palindrome-section, .quiz-section, .shaktimann-section, .funwithtriangles-section, .emoji-interpreter-section, .Travel-destination-recommender-section, .Blogs-section{
+.tech-section, .project-section, .blog-section, .Edukaan-section, .Weather-section, .Nasa-section, .profitorloss-section, .cashregister-section, .yoda-section, .portfolio-section, .minionese-section, .birthdaylucky-section, .blog-1-section, .blog-2-section, .palindrome-section, .quiz-section, .shaktimann-section, .funwithtriangles-section, .emoji-interpreter-section, .Travel-destination-recommender-section, .Blogs-section{
     background-color: var(--section-color);
     margin: 2rem 3rem;
 
@@ -102,7 +102,7 @@ body{
 .work{
     color: var(--heading-color);
 }
-.birthdaylucky-section, .minionese-section, .portfolio-section, .blog-2-section, .project-section, .quiz-section, .funwithtriangles-section, .Travel-destination-recommender-section{
+.birthdaylucky-section, .minionese-section, .Edukaan-section, .Nasa-section, .portfolio-section, .blog-2-section, .project-section, .quiz-section, .funwithtriangles-section, .Travel-destination-recommender-section{
     background-color: white;
 }
 .paragraph-container{
